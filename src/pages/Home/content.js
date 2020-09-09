@@ -1,44 +1,46 @@
 export default {
   banner: {
-    title: `We're Building The \nNew Internet`,
-    desc: '[Freedom](/#freedom) of expression, [control](/#control) of personal data, [private and secure](/#privacy) communications; and a whole new [economy](/#economy). Welcome to the SAFE Network.',
+    title: `Χτίζουμε το \nΚαινούργιο Διαδίκτυο`,
+    desc: '[Ελευθερία](/#freedom) έκφρασης, [έλεγχος](/#control) των προσωπικών δεδομένων, [ιδιοτικές και ασφαλής](/#privacy) επικοινωνίες° και μια εντελώς καινούργια [οικονομία](/#economy). Καλωσορίσατε στο Ασφαλές Δίκτυο.',
     aside: {
-      para: 'Using spare bandwidth and unused disk space on home computers and phones, we’re taking the web off corporate servers, out of government control, and back into the hands of people.',
+      para: 'Χρησιμοποιώντας εφεδρικό εύρος ζώνης και αχρησιμοποίητο χώρο στο δίσκο σε οικιακούς υπολογιστές και τηλέφωνα, αφαιρούμε τον ιστό από εταιρικούς διακομιστές, εκτός κυβερνητικού ελέγχου, και τον επιστρέφουμε στα χέρια των ανθρώπων.',
       CTA: {
-        name: 'See how it works',
+        name: 'Δείτε πώς δουλεύει',
         url: '/how-it-works/'
       }
     },
   },
   freedom: {
-    title: 'Decentralised & Autonomous: \nFreedom of expression by design.',
+    title: 'Αποκεντρωμένο και Αυτόνομο: \nΕλευθερία έκφρασης από τον σχεδιασμό του.',
     para: [
-      'Everyone should be able to collaborate freely and share ideas; free and unrestricted access to information for everyone around the world.',
-      'That’s why we’ve designed a system like no other: An autonomous network that runs itself, distributed across the globe, that can’t be shut down, controlled, or censored.'
+      'Όλοι πρέπει να είναι σε θέση να συνεργάζονται ελεύθερα και να μοιράζονται ιδέες° δωρεάν και απεριόριστη πρόσβαση σε πληροφορίες για όλους σε όλο τον κόσμο.',
+      '
+169/5000
+Γι 'αυτό έχουμε σχεδιάσει ένα σύστημα όπως κανένα άλλο: Ένα αυτόνομο δίκτυο που λειτουργεί από μόνο του, διανέμεται σε όλο τον κόσμο, το οποίο δεν μπορεί να κλείσει, να ελεγχθεί ή να λογοκριθεί.'
     ],
     CTA: {
-      name: 'What is an Autonomous Network?',
+      name: 'Τι είναι ένα Αυτόνομο Δίκτυο;',
       url: '/faq/#what-is-an-autonomous-network'
     },
     founderQuote: {
-      para: `"Fixing the Internet isn't optional, and now there's a solution we can all be part of."`,
-      by: 'David Irvine — Founder'
+      para: `"Το να διορθώσουμε το διαδίκτυο δεν είναι επιλογή, και τώρα υπάρχει λύση όπου όλοι μπορούμε να είμαστε μέλος αυτού"`,
+      by: 'Ντέιβιντ Ιρβάιν - Ιδρυτής (David Irvine — Founder)'
     },
     aside1: {
-      title: 'All information is equal',
-      para: 'All data on the network is treated the same, and everyone has equal and free access.  Net neutrality comes as standard.'
+      title: 'Όλες οι πληροφορίες είναι ίσης αξίας',
+      para: 'Όλα τα δεδομένα στο δίκτυο αντιμετωπίζονται με τον ίδιο τρόπο και όλοι έχουν ίση και δωρεάν πρόσβαση. Η δικτυακή ουδετερότητα (Net Neutrality) έρχεται ως στάνταρ.'
     },
     aside2: {
-      title: 'Can’t be censored or shut down',
-      para: 'Because it’s autonomous, the SAFE Network can’t be turned off, blocked or controlled. It belongs to humanity.'
+      title: 'Δεν μπορεί να λογοκριθεί ή να κλείσει',
+      para: 'Επειδή είναι αυτόνομο, το Ασφαλές Δίκτυο δεν μπορεί να απενεργοποιηθεί, να αποκλειστεί ή να ελεγχθεί. Ανήκει στην ανθρωπότητα.'
     }
   },
   privacy: {
-    title: 'Total Privacy, Absolute Security.',
+    title: 'Πλήρης Ιδιοτικότητα, Απόλυτη Ασφάλεια.',
     para: [
-      'Privacy and security should be available to everyone, not just those with deep pockets.',
-      'That’s why the SAFE Network encrypts all data by default, automatically splitting it into many pieces which constantly move to locations around the globe that cannot be traced. And your access to them is untraceable too.',
-      ' No more hacked data, no more stolen passwords, no more eavesdropping. Private. Secure. Anonymous.'
+      'Ιδιοτικότητα και ασφάλεια θα έπρεπε να είναι διαθέσιμη για τον καθένα, όχι μόνο όσοι έχουν βαθιές τσέπες',
+      'Γι\'αυτό το Ασφαλές Δίκτυο κρυπτογραφεί όλα τα δεδομένα από προεπιλογή, αυτόματα διαιρόντας τα σε πολλά κομμάτια τα οποία συνεχώς μετακινούντε σε τοποθεσίες γύρο από την υφήλιο τα οποία δεν μπορουν να ιχνηλατηθούν. Και η πρόσβασή σας σε αυτά.',
+      ' Τέλος σε δεδομένα που χακάρονται, τέλος στους κλεμένους κωδικούς, τέλος στην παρακολούθηση. Ιδιωτικό. Ασφαλές. Ανώνυμο.'
     ],
     CTA: {
       name: 'How does it work?',

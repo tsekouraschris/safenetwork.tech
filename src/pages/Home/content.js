@@ -41,22 +41,22 @@ export default {
       ' Τέλος σε δεδομένα που χακάρονται, τέλος στους κλεμένους κωδικούς, τέλος στην παρακολούθηση. Ιδιωτικό. Ασφαλές. Ανώνυμο.'
     ],
     CTA: {
-      name: 'How does it work?',
+      name: 'Πώς λειτουργεί;',
       url: '/how-it-works/'
     },
     quote: {
-      para: 'When we’re given the tools to communicate privately and securely we gain the freedom to collaborate and innovate all as one.'
+      para: 'Όταν μας δίνονται τα εργαλεία να επικοινωνούμε ιδιοτικά και με ασφάλεια αποκτούμε την ελευθερία να συνεργαζόμαστε και να πρωτοπορούμε όλοι ως ένα.'
     },
     aside1: {
-      title: 'Browse and access anonymously',
-      para: 'On the SAFE Network, you are free to browse and download completely anonymously, from anywhere in the world. No account necessary.'
+      title: 'Περιηγηθείτε και λάβετε πρόσβαση ανώνυμα',
+      para: 'Στο Ασφαλές Δίκτυο, είσαι ελεύθερος να περιηγηθείς και να κατεβάζεις εντελώς ανώνυμα, από παντού στον κόσμο. Χωρίς να χρειάζεται λογαριασμός.'
     }
   },
   data: {
-    title: 'Complete Control of Your Data',
+    title: 'Πλήρης Έλεγχος των Δέδομένων Σας',
     para: [
-      'The SAFE Network turns the current data ownership model on its head.',
-      'Gone are the days of your personal information being stored on corporate servers. Self Authentication means you are in complete control over your data: it resides with you. Grant permission for apps to connect to it, and no company or third party ever has access. ',
+      'Το Ασφαλές Δίκτυο γυρίζει το παρόν σύστημα της ιδιοκτισίας δεδομένων ανάποδα.',
+      'Πάνε οι μέρες που οι προσωπικές σου πληροφορίες θα είναι αποθηκευμένες σε εταιρικούς σέρβερ. Η Αυτο-επαλήθευση σημαίνει οτι είσαι σε πλήρη έλεγχο στα δεδομένα σου: κατοικεί μαζί σας. Παρέδωσε άδεια σε εφαρμογές να συνδέονται με αυτά, και καμία εταιρεία ή τρίτο μέλος δεν έχει ποτέ πρόσβαση.',
     ],
     CTA: {
       name: 'Read more about Self Authentication',

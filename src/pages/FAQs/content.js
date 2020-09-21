@@ -1,14 +1,14 @@
   export default {
-  title: 'Frequently Asked Questions',
+  title: 'Συχνές Ερωτήσεις',
   sections: [
     {
-      title: 'About the SAFE Network',
+      title: 'Περι του ΑσφαλούςΔικτύου',
       items: [
         {
-          question: 'What is the SAFE Network?',
+          question: 'Τι είναι το ΑσφαλέςΔίκτυο',
           answer: [
-            'The SAFE (Secure Access For Everyone) Network is a new secure way to access apps that value the security of your data above all else. Downloading the free SAFE software will provide access to: messaging, apps, email, social networks, data storage, video conferencing, and much more.',
-            'Rather than using data centres and servers which are prone to data theft and surveillance, as is common on today\'s Internet, the SAFE Network uses advanced peer-to-peer technology that joins together the spare computing capacity of all SAFE users, creating a global network.',
+            'Το ΑσφαλέςΔίκτυο (The SAFE - Secure Access For Everyone)είναι ενας νέος τρόπος να έχετε πρόσβαση σε εφαρμογές που έχουν ως αξίες την ασφάλεια των δεδομένων σας πάνω από όλα. Κατεβάζοντας το δωρεάν Ασφαλές λογισμικό θα σας δώσει πρόσβαση σε: μηνύματα. εφαρμογές, ηλ.ταχυδρομείο, κοινωνικά δίκτυα, αποθήκευση δεδομένων, βίντεο συνεδρίες και πολλά ακόμα.',
+            'Αντί να χρεισημοποιούμε κέντρα δεδομένων και σέρβερ που είναι εύκολο να γίνει κλοπή δεδομένων και παρακολούθηση, όπως είναι κοινό στο διαδίκτυο στο παρόν, το ΑσφαλέςΔίκτυο χρησιμοποιεί προχωρημένης τεχνολογίας ομότιμους κόμβους (peer-to-peer) εννώνοντας μαζί τον πλεονάζοντα υπολογιστικό δυναμικό όλων των χρηστών του Ασφαλους, δημιουργόντας ένα παγκόσμιο δίκτυο.',
             'The SAFE Network is made up of the unused hard drive space, processing power and data connection of its users. It offers a level of security and privacy not currently available on the existing Internet and turns the tables on companies, putting users in control of their data, rather than trusting it to organisations.',
             'By providing your unused computing resources to SAFE, you will be paid in a network token called [Safecoin](/safecoin).'
           ]

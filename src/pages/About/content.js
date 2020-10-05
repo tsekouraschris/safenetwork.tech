@@ -1,14 +1,14 @@
 export default {
-  desc: 'The company that originally envisaged the SAFE Network, MaidSafe are driven by one overriding goal: to provide privacy, security and freedom for everyone on the planet.',
+  desc: 'Η εταιρεία που αρχικά προέβλεπε το δίκτυο SAFE, το MaidSafe οδηγείται από έναν πρωταρχικό στόχο: την παροχή ιδιωτικότητας, ασφάλειας και ελευθερίας για όλους στον πλανήτη.',
   CTA: {
-    name: 'Contact MaidSafe',
+    name: 'Επικοινωνία με MaidSafe',
     url: 'https://maidsafe.net/'
   },
   para: [
-    'In 2006, MaidSafe began work on a decentralised internet that is private, secure and free for everybody. Since those early days, the team, led by founder David Irvine, has been focused solely on building the SAFE Network to solve the problems of an increasingly centralised internet that is facing more issues with each day that passes.',
-    'MaidSafe are based in Ayr, Scotland but the team is distributed all across the globe. It has has drawn talents from many different cultures and countries, reflecting the users that they serve. Comprised of thinkers, inventors, tinkerers, PhDs, engineers and designers, they are building software that is [open source and free to use](https://github.com/maidsafe) and share in a single mission: a desire to provide security and privacy for everyone.',
-    'MaidSafe are guided and influenced by the SAFE Network Community who have helped to fund the work and guide its decisions through discussions across community-run platforms.',
-    'The SAFE Network is currently in Alpha Release stages. Upon full release, MaidSafe will be only one of many thousands of developers making a living by carrying out development on the Network as a result of the built-in incentivisation scheme.',
-    'To contact the team directly, visit the company website at [maidsafe.net](https://maidsafe.net/contact) for further details.'
+    'Το 2006, η MaidSafe άρχισε να εργάζεται σε ένα αποκεντρωμένο διαδίκτυο που είναι ιδιωτικό, ασφαλές και δωρεάν για όλους. Από αυτές τις πρώτες μέρες, η ομάδα, με επικεφαλής τον ιδρυτή David Irvine, έχει επικεντρωθεί αποκλειστικά στην οικοδόμηση του δικτύου SAFE για την επίλυση των προβλημάτων ενός ολοένα και πιο συγκεντρωτικού διαδικτύου που αντιμετωπίζει περισσότερα προβλήματα με κάθε μέρα που περνά.',
+    'Η MaidSafe εδρεύει στο Ayr της Σκωτίας, αλλά η ομάδα διανέμεται σε όλο τον κόσμο. Έχει προσελκύσει ταλέντα από πολλούς διαφορετικούς πολιτισμούς και χώρες, αντανακλώντας τους χρήστες που εξυπηρετούν. Αποτελούμενοι από στοχαστές, εφευρέτες, βιτρίνες, PhD, μηχανικούς και σχεδιαστές, δημιουργούν λογισμικό που είναι [ανοιχτού κώδικα και δωρεάν χρήσης] (https://github.com/maidsafe) και μοιράζεται σε μία αποστολή: την επιθυμία να παρέχει ασφάλεια και ιδιωτικότητα για όλους.',
+    'Το MaidSafe καθοδηγείται και επηρεάζεται από την Κοινότητα Δικτύου SAFE που βοήθησαν στη χρηματοδότηση του έργου και καθοδηγούν τις αποφάσεις του μέσω συζητήσεων σε πλατφόρμες που λειτουργούν από την κοινότητα.',
+    'Το δίκτυο SAFE βρίσκεται επί του παρόντος σε στάδια έκδοσης Alpha. Με την πλήρη κυκλοφορία του, το MaidSafe θα είναι μόνο μία από τις χιλιάδες προγραμματιστές που θα κερδίσουν τα προς το ζην, πραγματοποιώντας ανάπτυξη στο Δίκτυο ως αποτέλεσμα του ενσωματωμένου προγράμματος κινήτρων.',
+    'Για να επικοινωνήσετε απευθείας με την ομάδα, επισκεφθείτε τον ιστότοπο της εταιρείας στο [maidsafe.net] (https://maidsafe.net/contact) για περισσότερες λεπτομέρειες.'
   ]
 }

@@ -1,8 +1,8 @@
 export default {
-  title: 'No Cookie Policy',
+  title: 'Πολιτική χωρίς "Cookie"',
   desc: [
-    '[MaidSafe.net](https://maidsafe.net/) Limited understands that your privacy is important to you and that you care about how your personal data is used. We respect and value the privacy of everyone who visits this website so with that in mind, we don’t use cookies on this website.',
-    'No session cookie; no persistent cookie; no HttpOnly cookie; no secure cookie; no Third-party cookies. Seriously… NO COOKIES!'
+    '[MaidSafe.net] (https://maidsafe.net/) Η Limited κατανοεί ότι το απόρρητό σας είναι σημαντικό για εσάς και ότι σας ενδιαφέρει ο τρόπος με τον οποίο χρησιμοποιούνται τα προσωπικά σας δεδομένα. Σεβόμαστε και εκτιμούμε το απόρρητο όλων όσων επισκέπτονται αυτόν τον ιστότοπο, οπότε έχοντας κατά νου, δεν χρησιμοποιούμε cookie σε αυτόν τον ιστότοπο.',
+    'Χωρίς cookie συνεδρίας. χωρίς επίμονο cookie. όχι cookie HttpOnly. χωρίς ασφαλές cookie. χωρίς cookie τρίτων. Σοβαρά… ΟΧΙ COOKIES!'
   ],
   topics: []
 }

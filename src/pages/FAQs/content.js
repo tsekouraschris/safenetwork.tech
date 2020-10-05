@@ -9,36 +9,36 @@
           answer: [
             'Το ΑσφαλέςΔίκτυο (The SAFE - Secure Access For Everyone)είναι ενας νέος τρόπος να έχετε πρόσβαση σε εφαρμογές που έχουν ως αξίες την ασφάλεια των δεδομένων σας πάνω από όλα. Κατεβάζοντας το δωρεάν Ασφαλές λογισμικό θα σας δώσει πρόσβαση σε: μηνύματα. εφαρμογές, ηλ.ταχυδρομείο, κοινωνικά δίκτυα, αποθήκευση δεδομένων, βίντεο συνεδρίες και πολλά ακόμα.',
             'Αντί να χρεισημοποιούμε κέντρα δεδομένων και σέρβερ που είναι εύκολο να γίνει κλοπή δεδομένων και παρακολούθηση, όπως είναι κοινό στο διαδίκτυο στο παρόν, το ΑσφαλέςΔίκτυο χρησιμοποιεί προχωρημένης τεχνολογίας ομότιμους κόμβους (peer-to-peer) εννώνοντας μαζί τον πλεονάζοντα υπολογιστικό δυναμικό όλων των χρηστών του Ασφαλους, δημιουργόντας ένα παγκόσμιο δίκτυο.',
-            'The SAFE Network is made up of the unused hard drive space, processing power and data connection of its users. It offers a level of security and privacy not currently available on the existing Internet and turns the tables on companies, putting users in control of their data, rather than trusting it to organisations.',
-            'By providing your unused computing resources to SAFE, you will be paid in a network token called [Safecoin](/safecoin).'
+            'Το δίκτυο SAFE αποτελείται από τον αχρησιμοποίητο χώρο στον σκληρό δίσκο, την ισχύ επεξεργασίας και τη σύνδεση δεδομένων των χρηστών του. Προσφέρει επίπεδο ασφάλειας και απορρήτου που δεν είναι προς το παρόν διαθέσιμο στο υπάρχον Διαδίκτυο και μετατρέπει τους πίνακες σε εταιρείες, θέτοντας τους χρήστες στον έλεγχο των δεδομένων τους, αντί να το εμπιστεύονται σε οργανισμούς.',
+            'Παρέχοντας τους αχρησιμοποίητους υπολογιστικούς πόρους σας στο SAFE, θα πληρωθείτε σε ένα διακριτικό δικτύου που ονομάζεται [Safecoin] (/safecoin).'
           ]
         },
         {
-          question: 'What is an Autonomous Network?',
+          question: 'Τι είναι αυτόνομο δίκτυο;',
           answer: [
-            'An Autonomous Network is one which has no human gatekeepers. Anyone is able to join and—crucially—no-one can be prevented from taking part.',
-            'From the moment you upload your encrypted data, no human is required to ensure that your data remains secure and accessible until you alone choose to access it. Without the involvement of humans, the SAFE Network intelligently moves chunks of your data between nodes that it also constantly reassigns to different groups in order to provide total security and privacy at all times. You decide what information you will store—and the autonomous Network secures it to ensure that you retain total control.',
-            '_[Read more about Autonomous Networks](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
+            'Ένα Αυτόνομο Δίκτυο είναι ένα δίκτυο που δεν έχει ανθρώπινες πύλες Οποιοσδήποτε είναι σε θέση να συμμετάσχει και –το κρίσιμο– κανείς δεν μπορεί να εμποδιστεί να λάβει μέρος.',
+            'Από τη στιγμή που ανεβάζετε τα κρυπτογραφημένα δεδομένα σας, δεν απαιτείται κανένας άνθρωπος για να διασφαλίσει ότι τα δεδομένα σας παραμένουν ασφαλή και προσβάσιμα μέχρι να επιλέξετε μόνοι σας να έχετε πρόσβαση σε αυτά. Χωρίς τη συμμετοχή ανθρώπων, το Δίκτυο SAFE μετακινεί έξυπνα κομμάτια των δεδομένων σας μεταξύ κόμβων που εκχωρεί επίσης συνεχώς σε διαφορετικές ομάδες προκειμένου να παρέχει απόλυτη ασφάλεια και απόρρητο ανά πάσα στιγμή. Εσείς αποφασίζετε ποιες πληροφορίες θα αποθηκεύσετε — και το αυτόνομο Δίκτυο το ασφαλίζει για να διασφαλίσετε ότι διατηρείτε τον απόλυτο έλεγχο.',
+            '_ [Διαβάστε περισσότερα για τα αυτόνομα δίκτυα (english)] (https://metaquestions.me/2017/08/12/the-impossible-network/) _'
           ]
         },
         {
-          question: 'Why should I use the SAFE Network?',
+          question: 'Γιατί θα έπρέπε να χρησιμοποιήσω το δίκτυο SAFE;',
           answer: [
-            'Applications and programs on the existing Internet compromise your privacy through advertising and effectively control your data, granting you access when you login. On the SAFE Network, only you control who has access to your data and the distributed security features make your data safer than ever before. If you contribute some of your spare computing power to the network, you will be compensated for doing so with the Network’s built-in token, [Safecoin](/safecoin).'
+            'Οι εφαρμογές και τα προγράμματα στο υπάρχον Διαδίκτυο θέτουν σε κίνδυνο το απόρρητό σας μέσω της διαφήμισης και ελέγχουν αποτελεσματικά τα δεδομένα σας, παρέχοντάς σας πρόσβαση κατά τη σύνδεσή σας. Στο Δίκτυο SAFE, μόνο εσείς ελέγχετε ποιος έχει πρόσβαση στα δεδομένα σας και οι κατανεμημένες δυνατότητες ασφαλείας καθιστούν τα δεδομένα σας ασφαλέστερα από ποτέ. Εάν συνεισφέρετε μέρος της πλεονάζουσας υπολογιστικής σας δύναμης στο δίκτυο, θα αποζημιωθείτε για να το κάνετε με το ενσωματωμένο διακριτικό του δικτύου, [Safecoin] (/safecoin).'
           ]
         },
         {
-          question: 'Who owns the SAFE Network?',
+          question: 'Ποιος κατέχει το δίκτυο SAFE;',
           answer: [
-            '**No one.**',
-            'The SAFE Network is [open source](https://github.com/maidsafe). Our vision is to create a resource that can be used by everyone to spread all human knowledge and to facilitate sharing across the planet, regardless of country of residence, culture, or economic background.'
+            '**κανένας**',
+            'Το Δίκτυο SAFE είναι [ανοιχτού κώδικα] (https://github.com/maidsafe). Το όραμά μας είναι να δημιουργήσουμε έναν πόρο που μπορεί να χρησιμοποιηθεί από όλους για να διαδώσει όλες τις ανθρώπινες γνώσεις και να διευκολύνει την κοινή χρήση σε ολόκληρο τον πλανήτη, ανεξάρτητα από τη χώρα κατοικίας, τον πολιτισμό ή το οικονομικό υπόβαθρο.'
           ]
         },
         {
-          question: 'Who are MaidSafe?',
+          question: 'Ποιοι είναι οι MaidSafe;',
           answer: [
-            'Started in 2006 by Scottish engineer David Irvine, MaidSafe are the core developers of the SAFE Network.  It’s a small team comprised of: thinkers, inventors, tinkerers, PhDs, engineers and designers. Although based in Ayr, Scotland, we work remotely with talents from many different cultures and countries, reflecting the users that we serve. Despite this variety, we all share a single mission: providing security and privacy for everyone.',
-            '_[Visit Maidsafe.net](https://maidsafe.net)_'
+            'Ξεκίνησε το 2006 από τον σκωτσέζικο μηχανικό David Irvine, η MaidSafe είναι οι βασικοί προγραμματιστές του δικτύου SAFE. Πρόκειται για μια μικρή ομάδα που αποτελείται από: στοχαστές, εφευρέτες, βιτρίνες, διδακτορικούς, μηχανικούς και σχεδιαστές. Αν και εδρεύουμε στο Ayr της Σκωτίας, εργαζόμαστε εξ αποστάσεως με ταλέντα από πολλούς διαφορετικούς πολιτισμούς και χώρες, αντικατοπτρίζοντας τους χρήστες που εξυπηρετούμε. Παρά αυτήν την ποικιλία, όλοι μοιραζόμαστε μια αποστολή: την παροχή ασφάλειας και απορρήτου για όλους.',
+            '_ [Επισκεφτείτε το Maidsafe.net (english)] (https://maidsafe.net) _'
           ]
         },
         {

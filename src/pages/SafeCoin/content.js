@@ -1,6 +1,6 @@
 export default {
   banner: {
-    title: 'Welcome to the New\n Digital Economy',
+    title: 'Καλώς ορίσατε στη Νέα\n Ψηφιακή Οικονομία',
     desc: 'Safecoin is at the core of the Network. It’s money that lets you store data and rewards you when you contribute. Only with instant transactions, unlimited scaling—and no fees.',
   },
   video: {

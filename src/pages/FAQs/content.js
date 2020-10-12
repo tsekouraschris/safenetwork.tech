@@ -28,37 +28,40 @@
           ]
         },
         {
-          question: 'Ποιος κατέχει το δίκτυο SAFE;',
+          question: 'Ποιός κατέχει το δίκτυο SAFE;',
           answer: [
             '**κανένας**',
             'Το Δίκτυο SAFE είναι [ανοιχτού κώδικα] (https://github.com/maidsafe). Το όραμά μας είναι να δημιουργήσουμε έναν πόρο που μπορεί να χρησιμοποιηθεί από όλους για να διαδώσει όλες τις ανθρώπινες γνώσεις και να διευκολύνει την κοινή χρήση σε ολόκληρο τον πλανήτη, ανεξάρτητα από τη χώρα κατοικίας, τον πολιτισμό ή το οικονομικό υπόβαθρο.'
           ]
         },
         {
-          question: 'Ποιοι είναι οι MaidSafe;',
+          question: 'Ποιοί είναι οι MaidSafe;',
           answer: [
             'Ξεκίνησε το 2006 από τον σκωτσέζικο μηχανικό David Irvine, η MaidSafe είναι οι βασικοί προγραμματιστές του δικτύου SAFE. Πρόκειται για μια μικρή ομάδα που αποτελείται από: στοχαστές, εφευρέτες, βιτρίνες, διδακτορικούς, μηχανικούς και σχεδιαστές. Αν και εδρεύουμε στο Ayr της Σκωτίας, εργαζόμαστε εξ αποστάσεως με ταλέντα από πολλούς διαφορετικούς πολιτισμούς και χώρες, αντικατοπτρίζοντας τους χρήστες που εξυπηρετούμε. Παρά αυτήν την ποικιλία, όλοι μοιραζόμαστε μια αποστολή: την παροχή ασφάλειας και απορρήτου για όλους.',
             '_ [Επισκεφτείτε το Maidsafe.net (english)] (https://maidsafe.net) _'
           ]
         },
         {
-            question: 'What do I need in order to browse the SAFE Network?',
+            question: 'Τι χρειάζομαι για να περιηγηθώ στο δίκτυο SAFE;',
             answer: [
-              '[Download the SAFE Network App!](https://github.com/maidsafe/safe-network-app/releases/latest)'
+              '[Κατεβάστε την εφαρμογή SAFE Network!] (Https://github.com/maidsafe/safe-network-app/releases/latest)'
             ]
           },
         {
-          question: 'How do I get involved with the SAFE Network community?',
+          question: 'Πώς μπορώ να ασχοληθώ με την κοινότητα του δικτύου SAFE;',
           answer: [
-            'The Community is most active on the [SAFE Network Forum](https://safenetforum.org/) and we’d suggest starting in the [beginners section](https://safenetforum.org/c/beginners).',
-            '*[Visit the Forum](https://safenetforum.org/)*'
+            'Η Κοινότητα είναι πιο ενεργή στο [SAFE Network Forum] (https://safenetforum.org/) και προτείνουμε να ξεκινήσετε από την ενότητα [αρχάριοι] (https://safenetforum.org/c/beginners).',
+            '* [Επισκεφτείτε το φόρουμ (αγγλικά)] (https://safenetforum.org/) *',
+             '* [Επισκεφτείτε το φόρουμ (ελληνικό)] (https://safefora.gr/) *'
           ]
         },
         {
-          question: 'How do I get help?',
+          question: 'Πώς μπορώ να λάβω βοήθεια;',
           answer: [
-            'The [SAFE Network Forum](https://safenetforum.org) is the place to head to for all questions on the Network.',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            'Το [SAFE Network Forum (aγγλικά)] (https://safenetforum.org) είναι το κατάλληλο μέρος για όλες τις ερωτήσεις στο Δίκτυο.',
+            '_[Visit the Forum](https://safenetforum.org/)_',
+            
+            '_[Επισκεφτείτε το φόρουμ (ελληνικό)] (https://safefora.gr/)_'
           ]
         }
       ]
@@ -89,29 +92,29 @@
     //   ]
     // },
     {
-      title: 'How it works',
+      title: 'Πώς λειτουργεί',
       items: [
         {
-          question: 'What is a Vault?',
+          question: 'Τι είναι ένα Vault;',
           answer: [
-            'The SAFE Network is made up of nodes called Vaults. A Vault is a program that runs on a device which connects the machine to the Network. Collectively, Vaults manage the storage of all data on the Network by managing the movement of chunks of encrypted user data that are stored across the Network. No Farmer (user) can ever decrypt a chunk of data that his or her Vault receives and, in return for providing the storage capacity to the Network, is rewarded with Safecoin.',
-            'Vaults ensure that the events occurring on the Network are valid. They are clustered into small groups, each with responsibility for looking after the data stored within a Section (a certain range of addresses).',
-            'These groups of nodes form, merge and split without any human oversight as the SAFE Network itself has complete control of the process. In the same way, the encrypted data chunks move around the Network in a fully autonomous way. No central servers or agents (like BitTorrent trackers) are required by the Network. No central authority oversees the proceedings.',
-            'Just as children are not allowed to vote in elections, a Vault is not allowed to vote on Network events (such as a new member joining or the storage of a data chunk) until it has proven itself to be reliable. Initially, a Vault has to successfully complete a [Proof of Resource](https://www.youtube.com/watch?v=rdczpOlLaVk) request to join the Network, proving that it can provide a certain amount of bandwidth and CPU capacity. It is then assigned to a Section and given a low Node Age. This is a measure of its trustworthiness. After that initial connection, the Network will autonomously move (churn) that Vault at random from Section to Section, giving it the opportunity to build its reputation (Node Age). Once its Node Age reaches a certain value, it can be an active participant in group decisions. A Vault with the greatest Node Age in a Section is known as an Elder. As a result, because new Vaults must prove their worth in various random Sections before they can vote, targeting a particular Section on the SAFE Network by an attacker is close to impossible.',
-            'Vaults also cryptographically check messages and take on more defined roles, called personas. Each Vault will have a Client Manager persona. This keeps a record of the account details for each Client (user) within its Section. For example, this will confirm how much data has been uploaded to the Network, how much is being stored and the balance of Safecoin remaining to fund further uploads. Whilst a Client Manager will know the account balance, it has no way of linking this to an identity (i.e. an IP address, username or public identity).',
-            'Each Vault also has a Data Manager persona. This manages where encrypted chunks of other users’ data is held and has responsibility for the chunks in its Section.'
+            'Το δίκτυο SAFE αποτελείται από κόμβους που ονομάζονται Vaults. Το Vault είναι ένα πρόγραμμα που εκτελείται σε μια συσκευή που συνδέει το μηχάνημα με το Δίκτυο. Συλλογικά, τα Vaults διαχειρίζονται την αποθήκευση όλων των δεδομένων στο Δίκτυο με τη διαχείριση της κίνησης τμημάτων κρυπτογραφημένων δεδομένων χρήστη που αποθηκεύονται σε ολόκληρο το Δίκτυο. Κανένας Farmer (χρήστης) δεν μπορεί ποτέ να αποκρυπτογραφήσει ένα κομμάτι δεδομένων που λαμβάνει το Vault του και, σε αντάλλαγμα για την παροχή της χωρητικότητας αποθήκευσης στο Δίκτυο, ανταμείβεται με το Safecoin. ',
+            'Τα Vaults διασφαλίζουν ότι τα συμβάντα που συμβαίνουν στο Δίκτυο είναι έγκυρα. Συγκεντρώνονται σε μικρές ομάδες, καθεμία από τις οποίες φέρει την ευθύνη να φροντίζει τα δεδομένα που είναι αποθηκευμένα σε μια Ενότητα (ένα συγκεκριμένο εύρος διευθύνσεων).',
+            'Αυτές οι ομάδες κόμβων σχηματίζονται, συγχωνεύονται και χωρίζονται χωρίς καμία ανθρώπινη επίβλεψη, καθώς το ίδιο το δίκτυο SAFE έχει τον πλήρη έλεγχο της διαδικασίας. Με τον ίδιο τρόπο, τα κρυπτογραφημένα κομμάτια δεδομένων κινούνται γύρω από το Δίκτυο με έναν πλήρως αυτόνομο τρόπο. Δεν απαιτούνται κεντρικοί διακομιστές ή πράκτορες (όπως ιχνηλάτες BitTorrent) από το Δίκτυο. Καμία κεντρική αρχή δεν επιβλέπει τη διαδικασία.',
+            'Ακριβώς όπως τα παιδιά δεν επιτρέπεται να ψηφίζουν στις εκλογές, δεν επιτρέπεται σε ένα Vault να ψηφίζει για εκδηλώσεις δικτύου (όπως η συμμετοχή νέου μέλους ή η αποθήκευση ενός τμήματος δεδομένων) έως ότου αποδειχθεί ότι είναι αξιόπιστο. Αρχικά, ένα Vault πρέπει να ολοκληρώσει με επιτυχία ένα αίτημα [Απόδειξη πόρου] (https://www.youtube.com/watch?v=rdczpOlLaVk) για συμμετοχή στο Δίκτυο, αποδεικνύοντας ότι μπορεί να παρέχει ένα ορισμένο ποσό εύρους ζώνης και χωρητικότητα CPU . Στη συνέχεια εκχωρείται σε μια Ενότητα και λαμβάνει χαμηλή ηλικία κόμβων. Αυτό είναι ένα μέτρο αξιοπιστίας του. Μετά από αυτήν την αρχική σύνδεση, το Δίκτυο θα μετακινήσει αυτόνομα (churn) που Vault τυχαία από Ενότητα σε Ενότητα, δίνοντάς του την ευκαιρία να χτίσει τη φήμη του (Node Age). Μόλις η ηλικία του κόμβου φτάσει μια συγκεκριμένη τιμή, μπορεί να συμμετέχει ενεργά σε ομαδικές αποφάσεις.Ένα θησαυροφυλάκιο με τη μεγαλύτερη ηλικία κόμβων σε ένα τμήμα είναι γνωστό ως ηλικιωμένος. Ως αποτέλεσμα, επειδή τα νέα Vaults πρέπει να αποδείξουν την αξία τους σε διάφορες τυχαίες ενότητες προτού μπορέσουν να ψηφίσουν, η στόχευση ενός συγκεκριμένου τμήματος στο δίκτυο SAFE από έναν εισβολέα είναι σχεδόν αδύνατο. ',
+            'Τα Vault ελέγχουν κρυπτογραφικά μηνύματα και αναλαμβάνουν πιο καθορισμένους ρόλους, που ονομάζονται personas. Κάθε Vault θα έχει προσωπικό πελάτη. Αυτό διατηρεί αρχείο των λεπτομερειών του λογαριασμού για κάθε Πελάτη (χρήστη) στην Ενότητα του. Για παράδειγμα, αυτό θα επιβεβαιώσει πόσα δεδομένα έχουν μεταφορτωθεί στο Δίκτυο, πόσα αποθηκεύονται και το υπόλοιπο του Safecoin που απομένει για τη χρηματοδότηση περαιτέρω μεταφορτώσεων. Ενώ ένας Διαχειριστής Πελατών θα γνωρίζει το υπόλοιπο του λογαριασμού, δεν έχει κανέναν τρόπο να το συνδέσει με μια ταυτότητα (π.χ. διεύθυνση IP, όνομα χρήστη ή δημόσια ταυτότητα). ',
+            'Κάθε Vault έχει επίσης προσωπικό Data Manager. Αυτό διαχειρίζεται όπου διατηρούνται κρυπτογραφημένα κομμάτια των δεδομένων άλλων χρηστών και έχει την ευθύνη για τα κομμάτια στην Ενότητα. '
           ]
         },
         {
-          question: 'Why do we need an Autonomous Network?',
+          question: 'Γιατί χρειαζόμαστε ένα αυτόνομο δίκτυο;',
           answer: [
-            'An autonomous network is one that manages all of our data and communications without any human intervention and no intermediaries. It is a network that configures itself. Resources are not added by a centralised IT administrator—reducing the opportunity for malicious or negligent activities. The Network becomes permissionless—participation is open to all who seek it, removing the risks of monopolisation by single entities whose power can grow unchecked.',
-            'Many data breaches are caused by human error. But the issue is more fundamental. We are becoming increasingly reliant on systems in which our data is stored by others. As more of our personal data in the hands of third parties, the risks of failure grow higher by the day. We already see our data being used for purposes that we dislike today. How likely is it that your access will be revoked entirely? That you will no longer control that stream of data about your life? In some countries, that is already a reality.',
-            'We can improve physical security. We must ensure that data cannot be deleted, changed, corrupted or accessed without the data owner’s consent. And only by removing humans from the management of our data can physical security be provided. You must have storage locations that are unknown to anyone but the network and one in which the user cannot be identified. Only an autonomous network provides this level of security.',
-            'An autonomous network automatically splits and encrypts (using self-encryption) all data before storing this dynamically at locations that it selects. Nodes join anonymously and the Network will constantly move these nodes between groups—again without any human intervention or centralised record. Together each group of nodes takes decisions based on the messages that they receive.',
-            'An autonomous network is also able to create additional copies of popular data which means that requests are served more quickly. At the same time, the Network itself can identify duplicate copies of identical data and reduce these to a minimum.',
-            'Our design approach is influenced by the humble ant. Ant colonies exhibit complex and highly organised behaviour on a massive scale without reliance on a central authority. Instead, each ant fulfils different duties based on the needs of the colony. In a similar way, nodes on the SAFE Network perform different functions based on the types of messages that they need.',
-            'So why do we need an autonomous network? Because humans make mistakes, centralised storage facilities are prone to failure—and we collectively need to build a platform upon which mankind can collaborate as we move into the future.'
+            'Ένα αυτόνομο δίκτυο είναι αυτό που διαχειρίζεται όλα τα δεδομένα και τις επικοινωνίες μας χωρίς ανθρώπινη παρέμβαση και χωρίς μεσάζοντες. Είναι ένα δίκτυο που διαμορφώνεται. Οι πόροι δεν προστίθενται από έναν κεντρικό διαχειριστή πληροφορικής - μειώνοντας την ευκαιρία για κακόβουλες ή αμελείς δραστηριότητες. Το Δίκτυο γίνεται άδειο - η συμμετοχή είναι ανοιχτή σε όλους όσους το αναζητούν, αφαιρώντας τους κινδύνους της μονοπώλησης από μεμονωμένες οντότητες των οποίων η ισχύς μπορεί να αυξηθεί ανεξέλεγκτα ',
+            'Πολλές παραβιάσεις δεδομένων προκαλούνται από ανθρώπινο σφάλμα. Αλλά το ζήτημα είναι πιο θεμελιώδες. Εξαρτούμε ολοένα και περισσότερο από συστήματα στα οποία τα δεδομένα μας αποθηκεύονται από άλλους. Καθώς περισσότερα από τα προσωπικά μας δεδομένα βρίσκονται στα χέρια τρίτων, οι κίνδυνοι αποτυχίας αυξάνονται όλο και περισσότερο. Βλέπουμε ήδη τα δεδομένα μας να χρησιμοποιούνται για σκοπούς που δεν μας αρέσουν σήμερα. Πόσο πιθανό είναι να ανακληθεί πλήρως η πρόσβασή σας; Ότι δεν θα ελέγχετε πλέον αυτήν τη ροή δεδομένων για τη ζωή σας; Σε ορισμένες χώρες, αυτό είναι ήδη πραγματικότητα ',
+            'Μπορούμε να βελτιώσουμε τη φυσική ασφάλεια. Πρέπει να διασφαλίσουμε ότι τα δεδομένα δεν μπορούν να διαγραφούν, να αλλάξουν, να καταστραφούν ή να έχουν πρόσβαση χωρίς τη συγκατάθεση του κατόχου των δεδομένων. Και μόνο αφαιρώντας τους ανθρώπους από τη διαχείριση των δεδομένων μας μπορεί να παρέχεται φυσική ασφάλεια. Πρέπει να έχετε τοποθεσίες αποθήκευσης που είναι άγνωστες σε κανέναν εκτός από το δίκτυο και εκεί όπου δεν είναι δυνατή η αναγνώριση του χρήστη. Μόνο ένα αυτόνομο δίκτυο παρέχει αυτό το επίπεδο ασφάλειας. ',
+            'Ένα αυτόνομο δίκτυο χωρίζει και κρυπτογραφεί αυτόματα (χρησιμοποιώντας αυτο-κρυπτογράφηση) όλα τα δεδομένα πριν τα αποθηκεύσει δυναμικά σε τοποθεσίες που επιλέγει. Οι κόμβοι ενώνουν ανώνυμα και το Δίκτυο θα μετακινεί συνεχώς αυτούς τους κόμβους μεταξύ ομάδων - ξανά χωρίς ανθρώπινη παρέμβαση ή κεντρική εγγραφή. Μαζί κάθε ομάδα κόμβων λαμβάνει αποφάσεις με βάση τα μηνύματα που λαμβάνουν.',
+            'Ένα αυτόνομο δίκτυο μπορεί επίσης να δημιουργήσει επιπλέον αντίγραφα δημοφιλών δεδομένων που σημαίνει ότι τα αιτήματα προβάλλονται πιο γρήγορα. Ταυτόχρονα, το ίδιο το Δίκτυο μπορεί να αναγνωρίσει διπλά αντίγραφα πανομοιότυπων δεδομένων και να τα μειώσει στο ελάχιστο.',
+            'Η σχεδιαστική μας προσέγγιση επηρεάζεται από το ταπεινό μυρμήγκι. Οι αποικίες μυρμηγκιών παρουσιάζουν πολύπλοκη και πολύ οργανωμένη συμπεριφορά σε μαζική κλίμακα χωρίς να βασίζονται σε μια κεντρική αρχή. Αντ \'αυτού, κάθε μυρμήγκι εκπληρώνει διαφορετικά καθήκοντα με βάση τις ανάγκες της αποικίας. Με παρόμοιο τρόπο, οι κόμβοι στο δίκτυο SAFE εκτελούν διαφορετικές λειτουργίες βάσει των τύπων των μηνυμάτων που χρειάζονται.',
+            'Γιατί λοιπόν χρειαζόμαστε ένα αυτόνομο δίκτυο; Επειδή οι άνθρωποι κάνουν λάθη, οι κεντρικές εγκαταστάσεις αποθήκευσης είναι επιρρεπείς σε αποτυχία - και συλλογικά πρέπει να χτίσουμε μια πλατφόρμα πάνω στην οποία η ανθρωπότητα μπορεί να συνεργαστεί καθώς προχωράμε στο μέλλον.'
           ]
         },
         {

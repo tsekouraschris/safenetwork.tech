@@ -118,32 +118,32 @@
           ]
         },
         {
-          question: 'What is Proof of Resource?',
+          question: 'Τι είναι η απόδειξη των πόρων;',
           answer: [
-            'Proof of Resource is the process that measures a Vault’s ability to store and retrieve data chunks. A User’s computer receives a score based on its CPU speed, bandwidth availability, disk space and time online.',
-            'Proof of Resource in the SAFE Network uses a mechanism similar to a Zero Knowledge Proof. The checking mechanism does not need to know what data is being checked—it simply needs to know that the correct data is being held and accurately.'
+            'Απόδειξη του πόρου είναι η διαδικασία που μετρά την ικανότητα ενός Vault να αποθηκεύει και να ανακτά κομμάτια δεδομένων. Ο υπολογιστής ενός χρήστη λαμβάνει μια βαθμολογία με βάση την ταχύτητα του CPU, τη διαθεσιμότητα εύρους ζώνης, το χώρο στο δίσκο και το χρόνο στο διαδίκτυο.',
+            'Η απόδειξη του πόρου στο δίκτυο SAFE χρησιμοποιεί έναν μηχανισμό παρόμοιο με ένα μηδενικό απόδειξη γνώσης. Ο μηχανισμός ελέγχου δεν χρειάζεται να γνωρίζει ποια δεδομένα ελέγχονται - απλά πρέπει να γνωρίζει ότι τα σωστά δεδομένα διατηρούνται και με ακρίβεια.'
           ]
         },
         {
-          question: 'What is self&#8209;encryption?',
+          question: 'Τι είναι η κρυπτογράφηση του εαυτού;',
           answer: [
-            'Self-encryption is the way in which a piece of data is split and then each chunk is encrypted using the other pieces of that same piece of data. It is a crucial process in the SAFE Network and ensures that the data is unrecognisable and resistant to decryption—even in the event of an encryption algorithm being compromised.',
-            'All data is self-encrypted before it is reaches the SAFE Network. The process is automatic and happens instantaneously.',
-            'As data is saved to a User\'s virtual hard drive, it is broken up into a minimum of three chunks, [hashed](https://en.wikipedia.org/wiki/Hash_function) and then encrypted. To further obfuscate the data, every chunk is passed through an [XOR](https://en.wikipedia.org/wiki/Exclusive_or) function using the hashes of other chunks. Each chunk is then broken up and key value pairs are added to a table in the Users account, called a data map. The data map contains the locations of each chunk that makes up the file. The data map, with hashes before and after encryption, is used when retrieving and decoding the User\'s data, as the encryption process is non-reversible.',
-            'This entire process takes place on the Client (i.e. the User\'s computer) so that data is always encrypted on the network and only Users with the correct credentials can decrypt the file. This also means that passwords can never be stolen from the network as they never pass beyond the Users computer. For additional security the data map is also run through the self-encryption process.',
-            '[Watch a Video Explainer](https://youtu.be/Jnvwv4z17b4)'
+            'Η αυτο-κρυπτογράφηση είναι ο τρόπος με τον οποίο χωρίζεται ένα κομμάτι δεδομένων και στη συνέχεια κάθε κομμάτι κρυπτογραφείται χρησιμοποιώντας τα άλλα κομμάτια του ίδιου τμήματος δεδομένων. Είναι μια κρίσιμη διαδικασία στο Δίκτυο SAFE και διασφαλίζει ότι τα δεδομένα είναι μη αναγνωρίσιμα και ανθεκτικά στην αποκρυπτογράφηση - ακόμη και σε περίπτωση παραβίασης ενός αλγορίθμου κρυπτογράφησης.',
+            'Όλα τα δεδομένα είναι κρυπτογραφημένα μόνο πριν φτάσουν στο Δίκτυο SAFE. Η διαδικασία είναι αυτόματη και συμβαίνει ακαριαία.',
+            'Καθώς τα δεδομένα αποθηκεύονται στον εικονικό σκληρό δίσκο ενός χρήστη, χωρίζονται σε τουλάχιστον τρία κομμάτια, [hashed] (https://en.wikipedia.org/wiki/Hash_function) και στη συνέχεια κρυπτογραφούνται. Για να αποκρύψετε περαιτέρω τα δεδομένα, κάθε κομμάτι περνά μέσα από μια συνάρτηση [XOR] (https://en.wikipedia.org/wiki/Exclusive_or) χρησιμοποιώντας τα κατακερματισμένα άλλα κομμάτια. Στη συνέχεια, κάθε κομμάτι χωρίζεται και τα ζεύγη τιμών κλειδιών προστίθενται σε έναν πίνακα στο λογαριασμό χρηστών, που ονομάζεται χάρτης δεδομένων. Ο χάρτης δεδομένων περιέχει τις τοποθεσίες κάθε κομματιού που αποτελεί το αρχείο. Ο χάρτης δεδομένων, με κατακερματισμούς πριν και μετά την κρυπτογράφηση, χρησιμοποιείται κατά την ανάκτηση και την αποκωδικοποίηση των δεδομένων του χρήστη, καθώς η διαδικασία κρυπτογράφησης είναι μη αναστρέψιμη.',
+            'Όλη αυτή η διαδικασία λαμβάνει χώρα στον Πελάτη (δηλαδή στον υπολογιστή του Χρήστη) έτσι ώστε τα δεδομένα να κρυπτογραφούνται πάντα στο δίκτυο και μόνο οι Χρήστες με τα σωστά διαπιστευτήρια μπορούν να αποκρυπτογραφήσουν το αρχείο. Αυτό σημαίνει επίσης ότι οι κωδικοί πρόσβασης δεν μπορούν ποτέ να κλαπούν από το δίκτυο, καθώς δεν περνούν ποτέ πέρα ​​από τον υπολογιστή των χρηστών. Για επιπλέον ασφάλεια, ο χάρτης δεδομένων εκτελείται επίσης μέσω της διαδικασίας αυτοκρυπτογράφησης.',
+            '[[Παρακολουθήστε ένα πρόγραμμα εξήγησης βίντεο (αγγλικά)] (https://youtu.be/Jnvwv4z17b4)'
           ]
         },
         {
-          question: 'What is PARSEC?',
+          question: 'Τι είναι το PARSEC;',
           answer: [
-            '**P**rotocol for **A**synchronous, **R**eliable, **S**ecure & **E**fficient **C**onsensus.',
-            'PARSEC is the consensus algorithm which allows decentralised networks to reach agreement on a series of events, actions or activities in a secure and reliable manner that is not only highly asynchronous but also Byzantine Fault Tolerant. In other words, the Network is mathematically guaranteed to reach consensus (provided no more than one-third of nodes are malicious or unresponsive for whatever reason).',
-            '[Read the whitepaper](https://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
+            '** P ** rotocol για ** A ** σύγχρονο, ** R ** επιλέξιμο, ** S ** ecure & ** E ** fficient ** C ** onsensus.',
+            'Το PARSEC είναι ο αλγόριθμος συναίνεσης που επιτρέπει στα αποκεντρωμένα δίκτυα να καταλήξουν σε συμφωνία για μια σειρά εκδηλώσεων, ενεργειών ή δραστηριοτήτων με ασφαλή και αξιόπιστο τρόπο, ο οποίος δεν είναι μόνο εξαιρετικά ασύγχρονος αλλά και Βυζαντινό Σφάλμα Ανοχής. Με άλλα λόγια, το Δίκτυο είναι μαθηματικά εγγυημένο ότι θα επιτύχει συναίνεση (υπό την προϋπόθεση ότι το ένα τρίτο των κόμβων δεν είναι κακόβουλο ή δεν ανταποκρίνεται για οποιονδήποτε λόγο).',
+            '[Διαβάστε τη "Λευκό χαρτί"(αγγγλικά)] (https://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
             '_PDF_',
-            '[Watch a video giving a technical overview](https://youtu.be/JKagaPUrDsY)',
+            '[Παρακολουθήστε ένα βίντεο με τεχνική επισκόπηση(αγγλικά)] (https://youtu.be/JKagaPUrDsY)',
             '_YouTube_',
-            '[Let Dug from MaidSafe talk you through it](https://youtu.be/3YRaTCET5ZU)',
+            '[Αφήστε το Dug from MaidSafe να σας μιλήσει(αγγλικά)] (https://youtu.be/3YRaTCET5ZU)',
             '_YouTube_'
           ]
         },

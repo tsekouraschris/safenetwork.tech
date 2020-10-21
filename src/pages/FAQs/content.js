@@ -148,25 +148,26 @@
           ]
         },
         {
-          question: 'What is data deduplication?',
+          question: 'Τι είναι η αποπτροπή διπλών δεδομένων;',
           answer: [
-            'The SAFE Network uses [data deduplication](https://en.wikipedia.org/wiki/Data_deduplication) to ensure that space is used efficiently when storing multiple copies of data which have been uniquely encrypted. The network is able to distinguish identical pieces of data by comparing the hashes of each chunk. Vaults also use hashes to identify themselves (known as Guaranteed Vault Identification).'
+            'Το Δίκτυο SAFE χρησιμοποιεί [deduplication δεδομένων] (https://en.wikipedia.org/wiki/Data_deduplication) για να διασφαλίσει ότι ο χώρος χρησιμοποιείται αποτελεσματικά κατά την αποθήκευση πολλαπλών αντιγράφων δεδομένων τα οποία έχουν κρυπτογραφηθεί μοναδικά. Το δίκτυο είναι σε θέση να διακρίνει πανομοιότυπα κομμάτια δεδομένων συγκρίνοντας τους κατακερματισμούς κάθε κομματιού. Τα Vaults χρησιμοποιούν επίσης κατακερματισμούς για την ταυτοποίησή τους (γνωστή ως Guaranteed Vault Identification).'
           ]
         },
         {
-          question: 'What is Self-Authentication?',
+          question: 'Τι είναι ο Αυτο-έλεγχος ταυτότητας;',
           answer: [
-            'Self-Authentication means that you can log in and secure your data with no middle man. You never have to give your password to anyone or ask a third party’s permission to access your data. Your information, and access to it, belongs to you and no one else. Your Secret and Password are used to locate your data on the Network and then used to decrypt that data locally. That means that no one needs to hold a record of your files or your login details—and there’s no need to ask anyone for permission to access it. This is known as Self-Authentication and enables you to find, unlock and decrypt your own data. '
+            'Το Δίκτυο SAFE χρησιμοποιεί [deduplication δεδομένων] (https://en.wikipedia.org/wiki/Data_deduplication) για να διασφαλίσει ότι ο χώρος χρησιμοποιείται αποτελεσματικά κατά την αποθήκευση πολλαπλών αντιγράφων δεδομένων τα οποία έχουν κρυπτογραφηθεί μοναδικά. Το δίκτυο είναι σε θέση να διακρίνει πανομοιότυπα κομμάτια δεδομένων συγκρίνοντας τους κατακερματισμούς κάθε κομματιού. Τα Vaults χρησιμοποιούν επίσης κατακερματισμούς για την ταυτοποίησή τους (γνωστή ως Guaranteed Vault Identification).'
           ]
         },
         {
-          question: 'What is Close Group Consensus?',
+          question: 'Τι είναι η στενή συναίνεση ομάδας;',
           answer: [
-            'A key requirement for distributed computer networks is consensus. In other words how can nodes reach agreement when there is no centralised authority and when you are likely to have nodes that are either malicious or fail. Many projects will rely on a blockchain in order to achieve this consensus but, as we know, [this approach doesn’t work](https://www.youtube.com/watch?v=i-RLdU8Y0Qc) with the SAFE Network where the number of transactions is greater and the expectation of users will be to retrieve data instantaneously. So how do you reach consensus on an increasingly large group of decentralised nodes without compromising security?',
-            'The answer lies within close groups. Using Close Group Consensus, small groups are able to make statements on behalf of the entire Network which means that the Network does not need to communicate directly with every single node each time.',
-            'On the SAFE Network, the concept of ‘closeness’ comes from something called XOR networking. This is a way of randomising the physical location of data on a distributed network and ensuring that each location is unique. However, in this sense, it is also used because every Vault has a XOR location also. A Close Group is then comprised of the closest Vault ID’s to the user’s Vault ID in terms of XOR distance. This is distance measured in the mathematical sense, as opposed to the geographical sense.',
-            'The Group of Vaults managing a Section will always try to reach consensus (agreement) amongst themselves on any state and action. They also ‘group sign’ messages that travel over the wider network so that other Vaults in other Groups can cryptographically verify each message and action (such as groups forming, splitting and merging). These group signatures are stored in Data Chains which are secured and held by all Vaults in the Group.',
-            'Close Group Consensus is not used for every operation on the Network as this would cause unnecessary load. It is only used for putting data on the Network—cryptographic signatures are used for other activities—for example, simple amendments to data or sending a Safecoin to another user.'
+            
+            'Βασική απαίτηση για κατανεμημένα δίκτυα υπολογιστών είναι η συναίνεση. Με άλλα λόγια πώς μπορούν οι κόμβοι να καταλήξουν σε συμφωνία όταν δεν υπάρχει κεντρική αρχή και όταν είναι πιθανό να έχετε κόμβους που είναι είτε κακόβουλοι είτε αποτυγχάνουν. Πολλά έργα θα βασίζονται σε ένα blockchain για την επίτευξη αυτής της συναίνεσης, αλλά, όπως γνωρίζουμε, [αυτή η προσέγγιση δεν λειτουργεί] (https://www.youtube.com/watch?v=i-RLdU8Y0Qc) με το δίκτυο SAFE όπου ο αριθμός των συναλλαγών είναι μεγαλύτερος και η προσδοκία των χρηστών θα είναι η ανάκτηση δεδομένων αμέσως. Λοιπόν, πώς επιτυγχάνετε συναίνεση για μια ολοένα και μεγαλύτερη ομάδα αποκεντρωμένων κόμβων χωρίς να διακυβεύετε την ασφάλεια;',
+            'Η απάντηση βρίσκεται σε στενές ομάδες. Χρησιμοποιώντας το Close Group Consensus, οι μικρές ομάδες μπορούν να κάνουν δηλώσεις για λογαριασμό ολόκληρου του Δικτύου, πράγμα που σημαίνει ότι το Δίκτυο δεν χρειάζεται να επικοινωνεί απευθείας με κάθε κόμβο κάθε φορά.',
+            'Στο δίκτυο SAFE, η έννοια της« εγγύτητας »προέρχεται από κάτι που ονομάζεται δικτύωση XOR. Αυτός είναι ένας τρόπος τυχαιοποίησης της φυσικής θέσης των δεδομένων σε ένα κατανεμημένο δίκτυο και διασφαλίζοντας ότι κάθε τοποθεσία είναι μοναδική. Ωστόσο, με αυτήν την έννοια, χρησιμοποιείται επίσης επειδή κάθε Vault έχει επίσης μια τοποθεσία XOR. Στη συνέχεια, μια ομάδα κλεισίματος αποτελείται από τα πλησιέστερα αναγνωριστικά Vault με το αναγνωριστικό Vault του χρήστη όσον αφορά την απόσταση XOR. Αυτή η απόσταση μετριέται με τη μαθηματική έννοια, σε αντίθεση με τη γεωγραφική έννοια.',
+            'Η Ομάδα των Vaults που διαχειρίζεται ένα Τμήμα θα προσπαθεί πάντα να καταλήξει σε συναίνεση (συμφωνία) μεταξύ τους για οποιαδήποτε κατάσταση και δράση. Επίσης, «ομαδοποιούν» μηνύματα που ταξιδεύουν μέσω του ευρύτερου δικτύου, ώστε άλλα Vaults σε άλλες Ομάδες να μπορούν να επαληθεύουν κρυπτογραφικά κάθε μήνυμα και ενέργεια (όπως σχηματισμός ομάδων, διαχωρισμός και συγχώνευση). Αυτές οι υπογραφές ομάδας αποθηκεύονται σε Αλυσίδες δεδομένων που είναι ασφαλείς και διατηρούνται από όλα τα Vaults στην Ομάδα.',
+            'Το Close Group Consensus δεν χρησιμοποιείται για κάθε λειτουργία στο Δίκτυο, καθώς αυτό θα προκαλούσε περιττό φορτίο. Χρησιμοποιείται μόνο για την τοποθέτηση δεδομένων στο Δίκτυο - οι κρυπτογραφικές υπογραφές χρησιμοποιούνται για άλλες δραστηριότητες - για παράδειγμα, απλές τροποποιήσεις σε δεδομένα ή αποστολή Safecoin σε άλλον χρήστη.'
           ]
         },
         {
